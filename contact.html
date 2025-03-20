@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us | Burger House</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav__header">
+                <div class="nav__logo">
+                    <a href="index.html"><img src="assets/logo-dark.png" alt="logo"></a>
+                </div>
+                <ul class="nav__links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="special.html">SPECIAL</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="index.html#event">EVENTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section__container contact__container">
+        <h2 class="section__header">CONTACT US</h2>
+        <p class="section__description">Any questions or feedback? Get in touch!</p>
+        <form id="contactForm" class="contact__form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="text" id="address" placeholder="Your Address" required>
+            <input type="number" id="phone" placeholder="Your Phone Number" required>
+            <button type="submit" class="btn">SUBMIT</button>
+        </form>
+    </section>
+
+    <h2>OR RESERVE A SPOT WITH US!</h2>
+
+    <section class="section__container reservation__container">
+        <img src="assets/reservation-bg-1.png" class="reservation__bg-left" alt="Burger Left">
+        <div class="reservation__content">
+            <h3 class="reservation__title">RESERVATION</h3>
+            <h2 class="reservation__header">BOOK YOUR TABLE</h2>
+            <form id="reservationForm" class="reservation__form">
+                <input type="text" id="res-name" placeholder="NAME" required>
+                <input type="email" id="res-email" placeholder="EMAIL" required>
+                <input type="date" id="res-date" placeholder="dd/mm/yyyy" required>
+                <input type="time" id="res-time" required>
+                <input type="number" id="res-people" placeholder="PEOPLE" required>
+                <button type="submit" class="btn reservation__btn">FIND TABLE</button>
+            </form>
+        </div>
+        <img src="assets/reservation-bg-2.png" class="reservation__bg-right" alt="Burger Right">
+    </section>
+
+    <footer class="footer">
+        <div class="section__container footer__container">
+            <div class="footer__logo">
+                <img src="assets/logo-white.png" alt="logo">
+            </div>
+            <div class="footer__content">
+                <p>Welcome to Burger House! Dalawa lang ang choice, bahay ni kuya o bahay ni burger?.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
